@@ -3,7 +3,17 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=600&lines=💖+Hi+there!+I'm+Dinda+Zahra+💖;🎓+Software+Engineering+Student;🌸+UPI+Bandung;✨+Event+Organizer+%26+Creative+Soul;💻+Passionate+about+Coding+%26+Design" alt="Typing SVG" />
+  
+**💖 Hi there! I'm Dinda Zahra 💖**
+
+**🎓 Software Engineering Student**
+
+**🌸 UPI Bandung**
+
+**✨ Event Organizer & Creative Soul**
+
+**💻 Passionate about Coding & Design**
+
 </div>
 
 <br>
@@ -99,14 +109,14 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=dindazhrs&show_icons=true&theme=radical&hide_border=true&bg_color=FFE5F1&title_color=FF69B4&icon_color=FF1493&text_color=C71585" />
-  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=dindazhrs&theme=radical&hide_border=true&background=FFE5F1&stroke=FF69B4&ring=FF1493&fire=FF69B4&currStreakLabel=C71585&sideLabels=C71585&dates=C71585" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dindazhrs&show_icons=true&theme=material-palenight&include_all_commits=true&count_private=true&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dindazhrs&layout=compact&langs_count=7&theme=material-palenight&hide_border=true"/>
 </div>
 
 <br>
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dindazhrs&layout=compact&theme=radical&hide_border=true&bg_color=FFE5F1&title_color=FF69B4&text_color=C71585" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dindazhrs&theme=material-palenight&hide_border=true" />
 </div>
 
 <br>
@@ -114,7 +124,7 @@
 ## 🏆 GitHub Trophies
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dindazhrs&theme=flat&no-frame=true&no-bg=true&row=1&column=6&margin-w=10" />
+  <img src="https://github-profile-trophy.vercel.app/?username=dindazhrs&theme=algolia&no-frame=true&no-bg=true&row=1&column=7" />
 </div>
 
 <br>
