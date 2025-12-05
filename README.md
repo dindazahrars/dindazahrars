@@ -1,46 +1,67 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=180&section=header&text=Dinda%20Zahra%20✨&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=fff&desc=Software%20Engineering%20Student&descSize=20&descAlignY=55" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,20,16,12,6&height=200&section=header&text=✨%20Dinda%20Zahra%20✨&fontSize=60&fontAlignY=35&animation=twinkling&fontColor=fff" />
 </div>
 
 <div align="center">
-  
-**💖 Hi there! I'm Dinda Zahra 💖**
+  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="50" />
+  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50" />
+  <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="50" />
+</div>
 
-**🎓 Software Engineering Student**
+<h1 align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Righteous&size=35&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&width=500&lines=Hi+There!+👋;I'm+Dinda+Zahra!+💖;Software+Engineering+Student+🎓;UPI+Bandung+🌸;Creative+Soul+✨" />
+</h1>
 
-**🌸 UPI Bandung**
-
-**✨ Event Organizer & Creative Soul**
-
-**💻 Passionate about Coding & Design**
-
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="600">
 </div>
 
 <br>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="100">
-  <img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="100">
-  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="100">
-</div>
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
 
 <br>
 
-## 🌸 About Me
+## 💖 About Me
 
-<img align="right" alt="Coding Girl" width="280" src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif">
+<table align="center">
+<tr>
+<td width="50%">
 
-- 👧 **Name:** Dinda Zahra Rama Sabila
-- 📍 **Location:** Bandung, Indonesia
-- 🎓 **Major:** Software Engineering
-- 🏫 **University:** Universitas Pendidikan Indonesia
-- 💖 **Interests:** Web Dev, UI/UX, Event Planning
-- 🎨 **Hobbies:** Organizing Events, Decorating
-- ☕ **Fuel:** Coffee & Creativity
-- 🌱 **Currently Learning:** Full Stack Development
-- ✨ **Fun Fact:** I love making things beautiful!
+```javascript
+const dinda = {
+    name: "Dinda Zahra Rama Sabila",
+    location: "Bandung, Indonesia 📍",
+    education: "Software Engineering 🎓",
+    university: "UPI",
+    role: "Student & Organizer",
+    passions: [
+        "💻 Coding",
+        "🎨 Designing", 
+        "🎪 Event Planning",
+        "✨ Creating Beautiful Things"
+    ],
+    currentlyLearning: [
+        "Full Stack Development",
+        "UI/UX Design",
+        "Cloud Computing"
+    ],
+    funFact: "I love pink and organizing events! 💕"
+};
+```
 
-<br clear="right"/>
+</td>
+<td width="50%">
+
+<img src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" width="100%">
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
 
 <br>
 
@@ -48,33 +69,87 @@
 
 <div align="center">
 
-| 🏢 Organization | 💼 Position | 📅 Year |
-|:---:|:---:|:---:|
-| **HIMARPL** | Staff Administrasi & Kesekretariatan | 2025 |
-| **BK x We Hear It** | Staff Media | 2025 |
+<table>
+<tr>
+<th>🏢 Organization</th>
+<th>💼 Position</th>
+<th>📅 Year</th>
+</tr>
+<tr>
+<td align="center"><b>HIMARPL</b></td>
+<td align="center">Staff Administrasi & Kesekretariatan</td>
+<td align="center">2025</td>
+</tr>
+<tr>
+<td align="center"><b>BK x We Hear It</b></td>
+<td align="center">Staff Media</td>
+<td align="center">2025</td>
+</tr>
+</table>
 
 </div>
 
 <br>
 
-## 🎯 Experience
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
+
+<br>
+
+## 🎯 My Journey
+
+<table align="center">
+<tr>
+<td width="50%" valign="top">
 
 ### 📍 Event Management
-- 🎪 **RPL Goes to School 2023** - Staff Management Acara
-- 🎪 **RPL Goes to School 2024** - Staff Management Acara
-- 🏆 **Diesnatalis RPL 2024** - Staff Pameran
-- 🌟 **Latihan Kepemimpinan Mahasiswa UPI Cibiru 2024** - Staff PDK
+```yaml
+🎪 RPL Goes to School 2023
+   Role: Staff Management Acara
 
-### 🎨 Creative & Design
-- 🎨 **Ekspedisi Biru 2023** - Staff Dekorasi
-- 🎭 **Mabim RPL 2024** - Staff Dekorasi
+🎪 RPL Goes to School 2024
+   Role: Staff Management Acara
 
-### 🛡️ Security & Operations
-- 🛡️ **MUMAS RPL 2023** - Staff Keamanan
-- 🛡️ **Ekspedisi Biru 2024** - Staff Keamanan
+🏆 Diesnatalis RPL 2024
+   Role: Staff Pameran
+
+🌟 LKM UPI Cibiru 2024
+   Role: Staff PDK
+```
 
 ### 📢 Communication
-- 🗣️ **KPU BEM 2023/2024** - Staff Humas
+```yaml
+🗣️ KPU BEM 2023/2024
+   Role: Staff Humas
+```
+
+</td>
+<td width="50%" valign="top">
+
+### 🎨 Creative & Design
+```yaml
+🎨 Ekspedisi Biru 2023
+   Role: Staff Dekorasi
+
+🎭 Mabim RPL 2024
+   Role: Staff Dekorasi
+```
+
+### 🛡️ Security & Operations
+```yaml
+🛡️ MUMAS RPL 2023
+   Role: Staff Keamanan
+
+🛡️ Ekspedisi Biru 2024
+   Role: Staff Keamanan
+```
+
+</td>
+</tr>
+</table>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
 
 <br>
 
@@ -82,50 +157,92 @@
 
 <div align="center">
 
-### 💻 Languages
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
-### 🎨 Design Tools
-![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=Canva&logoColor=white)
-
-### 🔧 Development Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
-### 🗄️ Databases
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+<table>
+<tr>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" />
+<br>HTML
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" />
+<br>CSS
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" />
+<br>JavaScript
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=python" width="48" height="48" alt="Python" />
+<br>Python
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=java" width="48" height="48" alt="Java" />
+<br>Java
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=php" width="48" height="48" alt="PHP" />
+<br>PHP
+</td>
+</tr>
+<tr>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" />
+<br>Git
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" />
+<br>GitHub
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" />
+<br>VS Code
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=figma" width="48" height="48" alt="Figma" />
+<br>Figma
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=mysql" width="48" height="48" alt="MySQL" />
+<br>MySQL
+</td>
+<td align="center" width="96">
+<img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" />
+<br>PostgreSQL
+</td>
+</tr>
+</table>
 
 </div>
 
 <br>
 
-## 📊 GitHub Stats
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
+
+<br>
+
+## 📊 GitHub Statistics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=dindazhrs&show_icons=true&theme=material-palenight&include_all_commits=true&count_private=true&hide_border=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=dindazhrs&layout=compact&langs_count=7&theme=material-palenight&hide_border=true"/>
+  <img width="390" src="https://github-readme-stats-salesp07.vercel.app/api?username=dindazhrs&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
+  <br/>
+  <img width="325" align="center" src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=dindazhrs&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
 </div>
 
 <br>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=dindazhrs&theme=material-palenight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=dindazhrs&theme=react&border_radius=10" alt="streak stats"/>
 </div>
 
 <br>
 
-## 🏆 GitHub Trophies
-
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=dindazhrs&theme=algolia&no-frame=true&no-bg=true&row=1&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=dindazhrs&theme=algolia&no-frame=true&no-bg=false&row=1&column=7&margin-w=15&margin-h=15" />
 </div>
+
+<br>
+
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
 
 <br>
 
@@ -141,20 +258,30 @@
 
 <br>
 
-## 💌 Connect With Me
+<img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100%">
+
+<br>
+
+## 💌 Let's Connect!
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-FF69B4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dindazhrs@upi.edu)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-FF1493?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/dinda-zahra-025402307/)
-[![Instagram](https://img.shields.io/badge/Instagram-FF69B4?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/dindazhrs)
-[![GitHub](https://img.shields.io/badge/GitHub-FF1493?style=for-the-badge&logo=github&logoColor=white)](https://github.com/dindazhrs)
+<a href="mailto:dindazhrs@upi.edu">
+  <img src="https://img.shields.io/badge/Email-FF69B4?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+<a href="https://www.linkedin.com/in/dinda-zahra-025402307/">
+  <img src="https://img.shields.io/badge/LinkedIn-FF1493?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://www.instagram.com/dindazhrs">
+  <img src="https://img.shields.io/badge/Instagram-FF69B4?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
+<a href="https://github.com/dindazhrs">
+  <img src="https://img.shields.io/badge/GitHub-FF1493?style=for-the-badge&logo=github&logoColor=white" />
+</a>
 
 </div>
 
 <br>
-
-## 💭 Random Dev Quote
 
 <div align="center">
   <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical" />
@@ -175,11 +302,10 @@
 <br>
 
 <div align="center">
-  <h3>✨ Thanks for visiting! Let's create something amazing together! ✨</h3>
+  <h2>✨ Thanks for visiting! Let's create something amazing together! ✨</h2>
+  <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="80">
 </div>
 
 <br>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12,14,16,18,20&height=100&section=footer" />
-</div>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,20,16,12,6&height=120&section=footer" />
