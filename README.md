@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&multiline=true&repeat=true&width=800&height=100&lines=Welcome+to+my+GitHub+Profile!+%F0%9F%92%96;Passionate+Coder+%7C+Creative+Designer+%7C+Event+Organizer;Always+Learning+%7C+Always+Creating+%7C+Always+Growing+%F0%9F%8C%B8" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=FF69B4&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=120&lines=Welcome+to+my+GitHub+Profile!+💖;Passionate+Coder+%7C+Creative+Designer+%7C+Event+Organizer;Always+Learning+%7C+Always+Creating+%7C+Always+Growing+🌸" alt="Typing SVG" />
 </div>
 
 <br>
@@ -219,19 +219,19 @@ class DindaZahra {
 <tr>
 <td align="center" width="25%">
 <img src="https://user-images.githubusercontent.com/74038190/212257467-871d32b7-e401-42e8-a166-fcfd7baa4c6b.gif" width="60"><br>
-<b>Coding</b>
+<b>💻 Coding</b>
 </td>
 <td align="center" width="25%">
-<img src="https://user-images.githubusercontent.com/74038190/216122003-15d7e991-8d2e-45e0-b5b6-3b6f1c8f3b3c.png" width="60"><br>
-<b>Designing</b>
+<img src="https://user-images.githubusercontent.com/74038190/212281775-b468df30-4edc-4bf8-a4ee-f52e1aaddc86.gif" width="60"><br>
+<b>🎨 Designing</b>
 </td>
 <td align="center" width="25%">
 <img src="https://user-images.githubusercontent.com/74038190/216120974-24a76b31-7f39-41f1-a38f-b3c1377cc612.png" width="60"><br>
-<b>Events</b>
+<b>🎪 Events</b>
 </td>
 <td align="center" width="25%">
 <img src="https://user-images.githubusercontent.com/74038190/216120981-b9507c36-0e04-4469-8e27-c99271b45ba5.png" width="60"><br>
-<b>Learning</b>
+<b>📚 Learning</b>
 </td>
 </tr>
 </table>
@@ -250,14 +250,22 @@ class DindaZahra {
 
 </div>
 
-## <img src="https://user-images.githubusercontent.com/74038190/216120986-f9d8c0f6-9d77-44b3-b3e8-c2e5c5f3b3b3.png" width="30" /> Let's Connect!
+## 💌 Let's Connect!
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=FF69B4)](mailto:dindazhrs@upi.edu)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=FF1493)](https://www.linkedin.com/in/dinda-zahra-025402307/)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=FF69B4)](https://www.instagram.com/dindazhrs)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=FF1493)](https://github.com/dindazhrs)
+<a href="mailto:dindazhrs@upi.edu">
+  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=FF69B4" alt="Email" />
+</a>
+<a href="https://www.linkedin.com/in/dinda-zahra-025402307/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=FF1493" alt="LinkedIn" />
+</a>
+<a href="https://www.instagram.com/dindazhrs">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=FF69B4" alt="Instagram" />
+</a>
+<a href="https://github.com/dindazhrs">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&labelColor=FF1493" alt="GitHub" />
+</a>
 
 </div>
 
