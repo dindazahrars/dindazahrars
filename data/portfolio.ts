@@ -197,7 +197,7 @@ export const organizations = [
     name: "RPL Student Club",
     role: "Media",
     period: "2025",
-    description: "Mengelola konten media sosial dan dokumentasi kegiatan konseling kampus",
+    description: "Mengelola konten media sosial dan dokumentasi kegiatan upi kampus cibiru",
     icon: "📱",
     color: "from-blue-500 to-cyan-500"
   }
