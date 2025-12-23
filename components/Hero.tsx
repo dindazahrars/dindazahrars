@@ -1,6 +1,7 @@
 'use client'
 
 import { Sparkles, Code2, Rocket, Heart } from 'lucide-react'
+import Image from 'next/image'
 
 export default function Hero() {
   return (
@@ -43,24 +44,33 @@ export default function Hero() {
           </svg>
         </div>
 
-        {/* Subtle Sparkles */}
-        <div className="absolute top-1/4 left-1/4 text-pink-400 text-xl opacity-60 animate-twinkle">✨</div>
-        <div className="absolute top-1/3 right-1/4 text-purple-400 text-lg opacity-50 animate-twinkle" style={{ animationDelay: '0.5s' }}>⭐</div>
-        <div className="absolute bottom-1/3 left-1/3 text-blue-400 text-xl opacity-60 animate-twinkle" style={{ animationDelay: '1s' }}>💫</div>
+        {/* Subtle Sparkles - Far from logo area */}
+        <div className="absolute top-32 left-32 text-pink-400 text-2xl opacity-60 animate-twinkle">✨</div>
+        <div className="absolute top-40 right-32 text-purple-400 text-2xl opacity-50 animate-twinkle" style={{ animationDelay: '0.5s' }}>⭐</div>
+        <div className="absolute bottom-32 left-40 text-blue-400 text-2xl opacity-60 animate-twinkle" style={{ animationDelay: '1s' }}>💫</div>
+        <div className="absolute bottom-40 right-40 text-pink-400 text-xl opacity-50 animate-twinkle" style={{ animationDelay: '1.5s' }}>✨</div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        {/* Floating Icon with Paint Border */}
-        <div className="flex justify-center mb-8">
+        {/* Logo - BIGGER & CLEAN (No nearby effects) */}
+        <div className="flex justify-center mb-12">
           <div className="relative animate-float">
-            <div className="w-32 h-32 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 p-1">
-              <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
-                <Sparkles className="text-purple-400" size={48} />
+            {/* Subtle outer glow only */}
+            <div className="absolute inset-0 w-56 h-56 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 blur-3xl opacity-40"></div>
+            
+            {/* Main Logo Container - BIGGER */}
+            <div className="relative w-56 h-56 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 p-2 shadow-2xl shadow-purple-500/30">
+              <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center overflow-hidden p-4">
+                <Image 
+                  src="/images/logo.png" 
+                  alt="DiZ Logo" 
+                  width={200}
+                  height={200}
+                  className="w-full h-full object-contain"
+                  priority
+                />
               </div>
             </div>
-            <div className="absolute -top-2 -right-2 w-8 h-8 bg-pink-500 rounded-full animate-ping"></div>
-            {/* Paint Drip */}
-            <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1 h-6 bg-gradient-to-b from-pink-500 to-transparent rounded-full"></div>
           </div>
         </div>
 
@@ -164,8 +174,6 @@ export default function Hero() {
                 className={`relative glass-card px-4 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-purple-400 ${tech.color} hover:scale-105 transition-all duration-300 cursor-default border-2 border-transparent`}
               >
                 {tech.name}
-                {/* Paint Drip on Hover */}
-                <div className="absolute -bottom-1 left-1/2 -translate-x-1/2 w-1 h-0 bg-gradient-to-b from-purple-400 to-transparent rounded-full group-hover:h-3 transition-all duration-300"></div>
               </div>
             ))}
           </div>
