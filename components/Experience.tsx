@@ -6,6 +6,9 @@ import Image from 'next/image';
 
 export default function Experience() {
   const [selectedCertificate, setSelectedCertificate] = useState<string | null>(null);
+  const [showAll, setShowAll] = useState(false);
+
+  const displayedExperiences = showAll ? experiences : experiences.slice(0, 4);
 
   return (
     <section id="experience" className="min-h-screen py-20 px-4 relative overflow-hidden">
@@ -29,23 +32,25 @@ export default function Experience() {
 
         {/* Experience Grid - 4 KOLOM */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {experiences.map((exp, index) => (
+          {displayedExperiences.map((exp, index) => (
             <div
               key={exp.id}
-              className="glass-card rounded-xl p-6 hover:scale-105 transition-all duration-300 group cursor-pointer"
+              className="glass-card rounded-xl p-6 hover:scale-105 transition-all duration-300 group"
               style={{
                 animation: `fadeInUp 0.6s ease-out ${index * 0.1}s both`
               }}
             >
               {/* Certificate Image */}
-              <div className="relative h-48 mb-4 rounded-lg overflow-hidden bg-slate-800/50">
+              <div 
+                className="relative h-48 mb-4 rounded-lg overflow-hidden bg-slate-800/50 cursor-pointer"
+                onClick={() => exp.certificate && setSelectedCertificate(exp.certificate)}
+              >
                 {exp.certificate ? (
                   <Image
                     src={exp.certificate}
                     alt={`Sertifikat ${exp.title}`}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-300"
-                    onClick={() => setSelectedCertificate(exp.certificate)}
                   />
                 ) : (
                   <div className="w-full h-full flex items-center justify-center text-6xl">
@@ -54,11 +59,13 @@ export default function Experience() {
                 )}
                 
                 {/* Overlay on hover */}
-                <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
-                  <span className="text-white text-sm font-medium">
-                    🔍 Klik untuk zoom
-                  </span>
-                </div>
+                {exp.certificate && (
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-4">
+                    <span className="text-white text-sm font-medium">
+                      🔍 Klik untuk zoom
+                    </span>
+                  </div>
+                )}
               </div>
 
               {/* Content */}
@@ -102,6 +109,18 @@ export default function Experience() {
             </div>
           ))}
         </div>
+
+        {/* See All / Show Less Button */}
+        {experiences.length > 4 && (
+          <div className="flex justify-center mt-12">
+            <button
+              onClick={() => setShowAll(!showAll)}
+              className="px-8 py-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-white font-medium hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-purple-500/50"
+            >
+              {showAll ? '👆 Tampilkan Lebih Sedikit' : '👇 Lihat Semua Pengalaman'}
+            </button>
+          </div>
+        )}
 
         {/* Stats - FIX ANGKA */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
