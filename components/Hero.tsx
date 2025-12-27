@@ -2,10 +2,11 @@
 
 import { Sparkles, Code2, Rocket, Heart } from 'lucide-react'
 import Image from 'next/image'
+import { personalInfo } from '../data/portfolio'
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
+    <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden pt-32 pb-32">
       {/* Paint Splash Background - Subtle */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         {/* Soft Paint Blobs */}
@@ -51,131 +52,137 @@ export default function Hero() {
         <div className="absolute bottom-40 right-40 text-pink-400 text-xl opacity-50 animate-twinkle" style={{ animationDelay: '1.5s' }}>✨</div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        {/* Logo - BIGGER & CLEAN (No nearby effects) */}
-        <div className="flex justify-center mb-12">
-          <div className="relative animate-float">
-            {/* Subtle outer glow only */}
-            <div className="absolute inset-0 w-56 h-56 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 blur-3xl opacity-40"></div>
-            
-            {/* Main Logo Container - BIGGER */}
-            <div className="relative w-56 h-56 rounded-full bg-gradient-to-br from-purple-500 via-pink-500 to-blue-500 p-2 shadow-2xl shadow-purple-500/30">
-              <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center overflow-hidden p-4">
-                <Image 
-                  src="/images/logo.png" 
-                  alt="DiZ Logo" 
-                  width={200}
-                  height={200}
-                  className="w-full h-full object-contain"
-                  priority
-                />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="grid lg:grid-cols-12 gap-12 items-center">
+          {/* Left Content */}
+          <div className="lg:col-span-7 text-center lg:text-left">
+            {/* LOGO REMOVED FROM HERE (Moved to Right Content) */}
+
+            {/* Text Content */}
+            <h1 className="text-5xl md:text-7xl font-bold mb-4 relative">
+              {/* Paint Stroke Behind Name */}
+              <div className="absolute inset-0 flex items-center justify-center lg:justify-start opacity-30 -z-10">
+              </div>
+              <span className="glow-text bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
+                Dinda Zahra Rama Sabila
+              </span>
+            </h1>
+
+            <div className="flex items-center justify-center lg:justify-start gap-3 mb-6 flex-wrap">
+              <Code2 className="text-purple-400" size={24} />
+              <h2 className="text-2xl md:text-3xl text-slate-300 font-medium">
+                Software Engineering Student
+              </h2>
+              <span className="text-2xl">🎨</span>
+            </div>
+
+            <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto lg:mx-0 mb-8 leading-relaxed">
+              ✨ Painting the web with{' '}
+              <span className="relative inline-block">
+                <span className="relative z-10 text-purple-400 font-semibold">Laravel</span>
+                <span className="absolute bottom-0 left-0 w-full h-2 bg-purple-400/20 -rotate-1 rounded"></span>
+              </span>
+              ,{' '}
+              <span className="relative inline-block">
+                <span className="relative z-10 text-pink-400 font-semibold">Next.js</span>
+                <span className="absolute bottom-0 left-0 w-full h-2 bg-pink-400/20 rotate-1 rounded"></span>
+              </span>
+              , and{' '}
+              <span className="relative inline-block">
+                <span className="relative z-10 text-blue-400 font-semibold">Supabase</span>
+                <span className="absolute bottom-0 left-0 w-full h-2 bg-blue-400/20 -rotate-1 rounded"></span>
+              </span>
+              {' '}✨
+            </p>
+
+            {/* Status Badge with Paint Dot */}
+            <div className="inline-flex items-center gap-2 px-6 py-3 glass-card rounded-full mb-8 border-2 border-green-400/20">
+              <div className="relative">
+                <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
+                <div className="absolute inset-0 w-3 h-3 bg-green-400 rounded-full animate-ping"></div>
+              </div>
+              <span className="text-slate-300 font-medium">Open for Internship Opportunities</span>
+              <span className="text-lg">🚀</span>
+            </div>
+
+            {/* CTA Buttons */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center mb-12">
+              <a
+                href="#projects"
+                className="group relative px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full font-semibold hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 flex items-center gap-2 overflow-hidden"
+              >
+                <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <Rocket className="relative group-hover:translate-x-1 transition-transform" size={20} />
+                <span className="relative">View My Projects</span>
+                <Sparkles className="relative" size={18} />
+              </a>
+              
+              <a
+                href="/cv/CV_Dinda.pdf"
+                download
+                className="px-8 py-4 border-2 border-purple-400 text-purple-400 rounded-full font-semibold hover:bg-purple-400 hover:text-slate-900 transition-all duration-300"
+              >
+                Download CV
+              </a>
+            </div>
+
+            {/* Tech Stack Icons with Paint Palette Style */}
+            <div className="relative inline-block">
+              <p className="text-slate-400 text-sm font-medium mb-4 flex items-center gap-2 justify-center lg:justify-start">
+                <span className="text-lg">🎨</span>
+                My Tech Palette
+              </p>
+              <div className="flex flex-wrap justify-center lg:justify-start gap-4">
+                {[
+                  { name: 'Laravel', color: 'hover:border-red-400' },
+                  { name: 'Next.js', color: 'hover:border-slate-400' },
+                  { name: 'React', color: 'hover:border-cyan-400' },
+                  { name: 'MySQL', color: 'hover:border-blue-400' },
+                  { name: 'Supabase', color: 'hover:border-green-400' },
+                  { name: 'Tailwind CSS', color: 'hover:border-cyan-400' },
+                  { name: 'TypeScript', color: 'hover:border-blue-400' },
+                  { name: 'Git', color: 'hover:border-orange-400' }
+                ].map((tech) => (
+                  <div
+                    key={tech.name}
+                    className={`relative glass-card px-4 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-purple-400 ${tech.color} hover:scale-105 transition-all duration-300 cursor-default border-2 border-transparent`}
+                  >
+                    {tech.name}
+                  </div>
+                ))}
               </div>
             </div>
           </div>
-        </div>
 
-        {/* Text Content */}
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 relative">
-          {/* Paint Stroke Behind Name */}
-          <div className="absolute inset-0 flex items-center justify-center opacity-30 -z-10">
-            <svg viewBox="0 0 600 100" className="w-full max-w-3xl">
-              <ellipse cx="300" cy="50" rx="280" ry="40" fill="url(#nameStroke)" />
-              <defs>
-                <linearGradient id="nameStroke" x1="0%" y1="0%" x2="100%" y2="0%">
-                  <stop offset="0%" stopColor="#ec4899" stopOpacity="0.3" />
-                  <stop offset="50%" stopColor="#a855f7" stopOpacity="0.4" />
-                  <stop offset="100%" stopColor="#3b82f6" stopOpacity="0.3" />
-                </linearGradient>
-              </defs>
-            </svg>
-          </div>
-          <span className="glow-text bg-gradient-to-r from-purple-400 via-pink-400 to-blue-400 bg-clip-text text-transparent">
-            Dinda Zahra Rama Sabila
-          </span>
-        </h1>
-
-        <div className="flex items-center justify-center gap-3 mb-6 flex-wrap">
-          <Code2 className="text-purple-400" size={24} />
-          <h2 className="text-2xl md:text-3xl text-slate-300 font-medium">
-            Software Engineering Student
-          </h2>
-          <span className="text-2xl">🎨</span>
-        </div>
-
-        <p className="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-8 leading-relaxed">
-          ✨ Painting the web with{' '}
-          <span className="relative inline-block">
-            <span className="relative z-10 text-purple-400 font-semibold">Laravel</span>
-            <span className="absolute bottom-0 left-0 w-full h-2 bg-purple-400/20 -rotate-1 rounded"></span>
-          </span>
-          ,{' '}
-          <span className="relative inline-block">
-            <span className="relative z-10 text-pink-400 font-semibold">Next.js</span>
-            <span className="absolute bottom-0 left-0 w-full h-2 bg-pink-400/20 rotate-1 rounded"></span>
-          </span>
-          , and{' '}
-          <span className="relative inline-block">
-            <span className="relative z-10 text-blue-400 font-semibold">Supabase</span>
-            <span className="absolute bottom-0 left-0 w-full h-2 bg-blue-400/20 -rotate-1 rounded"></span>
-          </span>
-          {' '}✨
-        </p>
-
-        {/* Status Badge with Paint Dot */}
-        <div className="inline-flex items-center gap-2 px-6 py-3 glass-card rounded-full mb-8 border-2 border-green-400/20">
-          <div className="relative">
-            <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-            <div className="absolute inset-0 w-3 h-3 bg-green-400 rounded-full animate-ping"></div>
-          </div>
-          <span className="text-slate-300 font-medium">Open for Internship Opportunities</span>
-          <span className="text-lg">🚀</span>
-        </div>
-
-        {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-          <a
-            href="#projects"
-            className="group relative px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full font-semibold hover:shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 flex items-center gap-2 overflow-hidden"
-          >
-            <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-400 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-            <Rocket className="relative group-hover:translate-x-1 transition-transform" size={20} />
-            <span className="relative">View My Projects</span>
-            <Sparkles className="relative" size={18} />
-          </a>
-          
-          <a
-            href="/cv/CV_Dinda.pdf"
-            download
-            className="px-8 py-4 border-2 border-purple-400 text-purple-400 rounded-full font-semibold hover:bg-purple-400 hover:text-slate-900 transition-all duration-300"
-          >
-            Download CV
-          </a>
-        </div>
-
-        {/* Tech Stack Icons with Paint Palette Style */}
-        <div className="relative inline-block">
-          <p className="text-slate-400 text-sm font-medium mb-4 flex items-center gap-2 justify-center">
-            <span className="text-lg">🎨</span>
-            My Tech Palette
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            {[
-              { name: 'Laravel', color: 'hover:border-red-400' },
-              { name: 'Next.js', color: 'hover:border-slate-400' },
-              { name: 'React', color: 'hover:border-cyan-400' },
-              { name: 'MySQL', color: 'hover:border-blue-400' },
-              { name: 'Supabase', color: 'hover:border-green-400' },
-              { name: 'Tailwind CSS', color: 'hover:border-cyan-400' },
-              { name: 'TypeScript', color: 'hover:border-blue-400' },
-              { name: 'Git', color: 'hover:border-orange-400' }
-            ].map((tech) => (
-              <div
-                key={tech.name}
-                className={`relative glass-card px-4 py-2 rounded-full text-sm font-medium text-slate-300 hover:text-purple-400 ${tech.color} hover:scale-105 transition-all duration-300 cursor-default border-2 border-transparent`}
-              >
-                {tech.name}
+          {/* Right Content (Image) */}
+          <div className="lg:col-span-5 flex justify-center lg:justify-end">
+            <div className="relative group">
+              {/* Profile Image Container */}
+              <div className="relative w-72 h-80 md:w-80 md:h-[420px] rounded-[2.5rem] overflow-hidden border-4 border-white/10 z-20 shadow-2xl">
+                <Image 
+                  src="/images/photo.png" 
+                  alt={personalInfo.name} 
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
-            ))}
+
+              {/* Floating Logo Badge (Logo MOVED HERE) */}
+              <div className="absolute -top-4 -right-4 w-24 h-24 bg-[#1a1b2e] border-2 border-white/10 rounded-2xl p-4 shadow-2xl z-30 animate-float flex items-center justify-center">
+                <Image 
+                  src="/images/logo.png" 
+                  alt="DZ Logo"
+                  width={100}
+                  height={100}
+                  className="w-full h-full object-contain"
+                />
+              </div>
+
+              {/* Background Glows for Image */}
+              <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-purple-600/30 blur-[80px] rounded-full z-10"></div>
+              <div className="absolute -top-10 -right-10 w-48 h-48 bg-pink-600/20 blur-[80px] rounded-full z-10"></div>
+            </div>
           </div>
         </div>
       </div>
