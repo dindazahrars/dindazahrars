@@ -56,7 +56,6 @@ export default function Hero() {
         <div className="grid lg:grid-cols-12 gap-12 items-center">
           {/* Left Content */}
           <div className="lg:col-span-7 text-center lg:text-left">
-            {/* LOGO REMOVED FROM HERE (Moved to Right Content) */}
 
             {/* Text Content */}
             <h1 className="text-5xl md:text-7xl font-bold mb-4 relative">
@@ -116,14 +115,15 @@ export default function Hero() {
                 <span className="relative">View My Projects</span>
                 <Sparkles className="relative" size={18} />
               </a>
-              
               <a
-                href="/cv/cv_dinda.pdf"
-                download
-                className="px-8 py-4 border-2 border-purple-400 text-purple-400 rounded-full font-semibold hover:bg-purple-400 hover:text-slate-900 transition-all duration-300"
-              >
-                Download CV
-              </a>
+                  href="/cv/cv_dinda.pdf"
+                  target="_blank"             
+                  rel="noopener noreferrer"  
+                 
+                  className="px-8 py-4 border-2 border-purple-400 text-purple-400 rounded-full font-semibold hover:bg-purple-400 hover:text-slate-900 transition-all duration-300"
+                >
+                  View CV 
+                </a>
             </div>
 
             {/* Tech Stack Icons with Paint Palette Style */}
@@ -157,7 +157,6 @@ export default function Hero() {
           {/* Right Content (Image) */}
           <div className="lg:col-span-5 flex justify-center lg:justify-end">
             <div className="relative group">
-              {/* Profile Image Container */}
               <div className="relative w-72 h-80 md:w-80 md:h-[420px] rounded-[2.5rem] overflow-hidden border-4 border-white/10 z-20 shadow-2xl">
                 <Image 
                   src="/images/photo.png" 
