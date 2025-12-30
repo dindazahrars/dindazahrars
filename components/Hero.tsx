@@ -118,7 +118,7 @@ export default function Hero() {
               </a>
               
               <a
-                href="/cv/CV_Dinda.pdf"
+                href="/cv/cv_dinda.pdf"
                 download
                 className="px-8 py-4 border-2 border-purple-400 text-purple-400 rounded-full font-semibold hover:bg-purple-400 hover:text-slate-900 transition-all duration-300"
               >
