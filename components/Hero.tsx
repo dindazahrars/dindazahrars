@@ -116,7 +116,7 @@ export default function Hero() {
                 <Sparkles className="relative" size={18} />
               </a>
               <a
-                  href="/cv/cv_dinda.pdf"
+                  href="/cv/CV_Dinda.pdf"
                   target="_blank"             
                   rel="noopener noreferrer"  
                  
